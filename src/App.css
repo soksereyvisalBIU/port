@@ -17,6 +17,10 @@
 	background-color: rgb(0, 0, 0);
 }
 
+*{
+	box-sizing: border-box;
+}
+
 .page-content {
 	background-color: white;
 	position: relative;
@@ -46,6 +50,7 @@
 .content-wrapper {
 	max-width: 1000px;
 	margin: 0 auto;
+	position: relative;
 }
 
 .title {
@@ -119,5 +124,11 @@
 
 	.subtitle {
 		width: 100%;
+	}
+}
+
+@media (max-width: 600px) {
+	.title {
+		font-size: 35px;
 	}
 }
