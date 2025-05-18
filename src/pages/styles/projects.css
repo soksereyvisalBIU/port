@@ -23,11 +23,13 @@
 }
 
 @media (max-width: 600px) {
-	/* .projects-container {
-		padding-top: 60px;
-	} */
-
+	.projects-container {
+		padding-top: 80px;
+	}
 	.projects-project {
 		width: calc(100% / 2);
+	}
+		.projects-logo {
+			display: none;
 	}
 }

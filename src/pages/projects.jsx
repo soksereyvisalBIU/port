@@ -11,6 +11,7 @@ import SEO from "../data/seo";
 
 import "./styles/projects.css";
 
+
 const Projects = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);

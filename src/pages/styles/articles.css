@@ -50,3 +50,17 @@
 		width: 100% !important;
 	}
 }
+@media (max-width: 600px) {
+	.articles-main-container {
+		padding-top: 80px;
+	}
+	.projects-project {
+		width: calc(100% / 2);
+	}
+	.articles-logo {
+			display: none;
+	}
+	.articles-article {
+		padding-left: 20px;
+	}
+}

@@ -131,4 +131,7 @@
 	.title {
 		font-size: 35px;
 	}
+	.increase-width {
+		width: 100%;
+	}
 }

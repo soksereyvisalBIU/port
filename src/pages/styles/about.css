@@ -106,12 +106,29 @@
 	}
 }
 
+@media (max-width: 1200px) {
+		.about-right-side {
+		padding-block: 50px;
+	}
+}
+@media (max-width: 768px) {
+		.about-right-side {
+		padding-block: 40px;
+	}
+}
+
 @media (max-width: 600px) {
 	.about-container {
-		padding-top: 60px;
+		padding-top: 80px;
 	}
 
 	.about-image-container {
 		width: 80%;
+	}
+	.about-logo-container{
+		display: none;
+	}
+		.about-right-side {
+		padding-block: 30px;
 	}
 }
