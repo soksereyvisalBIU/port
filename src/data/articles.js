@@ -176,7 +176,61 @@ function article_3() {
     ),
   };
 }
+function article_4() {
+  return {
+    date: "21 October 2024",
+    title: "Joined Cambodia Skill Compitition at TVET Park Phnom Penh",
+    description:
+      "Cambodia Skill Competition is a competition Programme supported DGTVET to organize National Skill Competition. More than 30 Technical Training Institutes participated in competitions with a total of 61 competitors from public and private training institutes who joined the eight skills competitions arena, namely welding, bricklaying, electrical installation, IT software Solution for Business, Web Design, Graphic Design, Wall and Floor Tilling and Industrial Automation.",
+    
+    link:[
+      'https://www.facebook.com/share/p/TsRKTsyVTNyoPSx6/?mibextid=WC7FNe'
+    ],
+      
+    style: ``,
+    keywords: [
+      "Joined Cambodia Skill Compitition at TVET Park Phnom Penh.",
+      "សុខ​ សិរីវិសាល",
+      "Sok Serey Visal",
+      "Sok Sereyvisal",
+      "Sok Serey Visal",
+      "SOK SEREYVISAL",
+      "SOK SEREY VISAL",
+      "SOK SEREYVISAL Developer",
+    ],
+    body: (
+      <React.Fragment>
+        <Swiper
+          grabCursor={true}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
+          }}
+          effect={"creative"}
+          creativeEffect={{
+            prev: {
+              shadow: true,
+              translate: ["-120%", 0, -500],
+            },
+            next: {
+              shadow: true,
+              translate: ["120%", 0, -500],
+            },
+          }}
+          modules={[EffectCreative, Autoplay]}
+          className="mySwiper2 read-article-swiper"
+        >
+          {INFO.articles.blogs.article_4.map((image, index) => (
+            <SwiperSlide key={index}>
+              <img src={image} alt={`Slide ${index + 1}`} />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </React.Fragment>
+    ),
+  };
+}
 
-const myArticles = [article_3, article_2, article_1];
+const myArticles = [article_4, article_3, article_2, article_1];
 
 export default myArticles;
