@@ -45,8 +45,10 @@
 	font-size: 15px;
 	font-weight: 700;
 }
-
-.homepage-article-link a {
+.homepage-article a {
+	text-decoration: none;
+}
+.homepage-article-link {
 	color: var(--link-color);
 	text-decoration: none;
 }

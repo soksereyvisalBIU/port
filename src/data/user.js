@@ -108,7 +108,7 @@ const INFO = {
       title: "Banking System",
       description:
         "University project to create a simple C++ program that store data in file and perform CRUD operations on it.",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png",
+      logo: "./asset/img/icon/cpp.png",
       linkText: "View Project",
       link: "https://github.com/soksereyvisalBIU",
     },
@@ -117,7 +117,7 @@ const INFO = {
       title: "Tourism Website",
       description:
         "University project to create a simple website using HTML, CSS, and JavaScript.",
-      logo: "https://imakestuff.online/wp-content/uploads/2019/12/HTML-CSS-JS-Logo.png",
+      logo: "./asset/img/icon/html-css-js.png",
       linkText: "View Project",
       link: "https://github.com/soksereyvisalBIU",
     },
@@ -126,7 +126,7 @@ const INFO = {
       title: "E-library",
       description:
         "University project to create a simple web application using PHP and MySQL.",
-      logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/php/php.png",
+      logo: "./asset/img/icon/php.png",
       linkText: "View Project",
       link: "https://github.com/soksereyvisalBIU",
     },
@@ -135,7 +135,7 @@ const INFO = {
       title: "Digital Library",
       description:
         "University project to create a simple web application using Laravel. Building a digital library to store and manage PDF books.",
-      logo: "https://static-00.iconduck.com/assets.00/laravel-icon-1990x2048-xawylrh0.png",
+      logo: "./asset/img/icon/laravel.png",
       linkText: "View Project",
       link: "https://github.com/soksereyvisalBIU",
     },
@@ -144,7 +144,7 @@ const INFO = {
       title: "BELTEI Group Website",
       description:
         "Renovate the website of BELTEI Group to be a dynamic website with admin dashbaord and user authorization using Laravel with Livewire",
-      logo: "https://avatars.githubusercontent.com/u/51960834?s=400&v=4",
+      logo: "./asset/img/icon/livewire.png",
       linkText: "View Project",
       link: "https://github.com/soksereyvisalBIU",
     },
