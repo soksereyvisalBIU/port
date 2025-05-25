@@ -9,10 +9,11 @@ import ReadArticle from "./pages/readArticle";
 import ReadProject from "./pages/readProject";
 import Contact from "./pages/contact";
 import Notfound from "./pages/404";
-
+import { Analytics } from "@vercel/analytics/react" 
 function App() {
   return (
     <div className="App">
+      <Analytics />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Homepage />} />
