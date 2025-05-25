@@ -245,8 +245,11 @@ function article_5() {
     date: "21 October 2024",
     title: "BELTEI Group Website",
     description:
-      "Renovate the website of BELTEI Group to be a dynamic website with admin dashbaord and user authorization using Laravel with Livewire",
+      "Renovate the website of BELTEI Group to be a dynamic website with admin dashbaord and user authorization using Laravel with Livewire Renovate the website of BELTEI Group to be a dynamic website with admin dashbaord and user authorization using Laravel with Livewire",
     logo: "https://avatars.githubusercontent.com/u/51960834?s=400&v=4",
+
+    
+    
     linkText: "View Project",
     link: "https://github.com/soksereyvisalBIU",
 

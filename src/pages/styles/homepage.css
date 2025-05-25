@@ -26,6 +26,9 @@
 .homepage-title {
 	width: 85% !important;
 }
+.homepage-title span{
+	color: var(--link-color);
+}
 
 .homepage-subtitle {
 	width: 85% !important;
